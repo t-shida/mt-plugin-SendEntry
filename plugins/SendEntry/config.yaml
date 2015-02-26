@@ -1,0 +1,22 @@
+id: SendEntry
+key: SendEntry
+name: SendEntry
+version: 1.0
+description: Test plugin. Send entry to another MT.
+author_name: shida
+author_link: http://d.hatena.ne.jp/macperl/
+doc_link: https://github.com/t-shida/mt-plugin-SendEntry
+
+callbacks:
+  MT::App::CMS::cms_post_save.entry: $SendEntry::SendEntry::Callbacks::send_entry
+
+config_settings:
+  se_mt_api_url:
+    default: mt_url/mt/mt-data-api.cgi
+  se_mt_username:
+    default: mt_user
+  se_mt_password:
+    default: mt_pass
+  se_mt_blog_id:
+    default: blog_id
+
