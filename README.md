@@ -31,6 +31,7 @@ plugins/SendEntry/config.yamlのconfig_settings...の値を以下のように記
 - - -
 
 ##### 参照サイト
+<https://github.com/movabletype/Documentation/wiki/Japanese-plugin-dev-3-2>  
 <http://www.h-fj.com/blog/archives/2013/07/18-144627.php>  
 <http://weeeblog.net/blog/2013/08/04_2301.php>  
 <http://blog.drikin.com/2013/12/movable-type-6data-api.html>  
